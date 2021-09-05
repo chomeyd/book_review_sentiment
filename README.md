@@ -15,11 +15,11 @@ words we trim them to this length by cutting off any words after this.
 ##  BUILDING THE MODEL
 
 The network will  has the following  layers;
-Embedding layer
-SpatialDropout1D(0.2)
-BatchNormalization()
-LSTM(32)
-Dense(2, activation='softmax')
+1.	**Embedding layer
+2.	**SpatialDropout1D(0.2)
+3.	**BatchNormalization()
+4.	**LSTM(32)
+5.	**Dense(2, activation='softmax')
 
 ##TRAINING THE MODEL AND MAKING PREDICTION
 
