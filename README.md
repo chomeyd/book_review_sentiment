@@ -15,13 +15,13 @@ words we trim them to this length by cutting off any words after this.
 ##  BUILDING THE MODEL
 
 The network will  has the following  layers;
-1.	**Embedding layer
-2.	**SpatialDropout1D(0.2)
-3.	**BatchNormalization()
-4.	**LSTM(32)
-5.	**Dense(2, activation='softmax')
+1.	Embedding layer
+2.	SpatialDropout1D(0.2)
+3.	BatchNormalization()
+4.	LSTM(32)
+5.	Dense(2, activation='softmax')
 
-##TRAINING THE MODEL AND MAKING PREDICTION
+## TRAINING THE MODEL AND MAKING PREDICTION
 
 ​The model is them compiled and trained on the test data. The hyperparameter output_dim
 in the embedded layer is set for different values, 10 25 50 and 100 to see how different models
